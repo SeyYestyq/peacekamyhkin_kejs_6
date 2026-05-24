@@ -1,0 +1,43 @@
+{
+  "type": "PDFYandexVisionBlock",
+  "message0": "Распознать PDF (Yandex Vision) %1",
+  "args0": [
+    { "type": "input_dummy" }
+  ],
+  "message1": "Токен %1",
+  "args1": [
+    { "type": "input_value", "name": "TOKEN", "check": "String" }
+  ],
+  "message2": "Каталог (Folder ID) %1",
+  "args2": [
+    { "type": "input_value", "name": "FOLDER_ID", "check": "String" }
+  ],
+  "message3": "Путь к файлу %1",
+  "args3": [
+    { "type": "input_value", "name": "FILE_PATH", "check": "String" }
+  ],
+  "message4": "Язык %1   Формат %2",
+  "args4": [
+    {
+      "type": "field_dropdown",
+      "name": "LANGUAGE",
+      "options": [
+        ["смешанный", "mixed"],
+        ["русский", "ru"],
+        ["английский", "en"]
+      ]
+    },
+    {
+      "type": "field_dropdown",
+      "name": "OUTPUT_FORMAT",
+      "options": [
+        ["Словарь (dict)", "dict"],
+        ["JSON-строка", "json"]
+      ]
+    }
+  ],
+  "inputsInline": false,
+  "output": null,
+  "colour": "#F9A825",
+  "tooltip": "Распознает PDF через Yandex Vision OCR и извлекает структурированные реквизиты документа"
+}

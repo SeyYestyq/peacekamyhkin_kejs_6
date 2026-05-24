@@ -1,0 +1,1 @@
+__import__('sys').path.append(__import__('os').path.expanduser('~/.puzzle_cache/code-storage-py-extensions/PDFYandexVisionBlock')) or getattr(__import__('src.__init__', fromlist=['run_pdf_yandex_vision']), 'run_pdf_yandex_vision')(token=${vc('TOKEN')}, folder_id=${vc('FOLDER_ID')}, file_path=${vc('FILE_PATH')})
