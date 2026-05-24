@@ -1,0 +1,1 @@
+__import__('sys').path.append('/Users/damir/Downloads/yandexvisionm/YandexFlashBlock') or getattr(__import__('src_flash.__init__', fromlist=['run_yandex_flash']), 'run_yandex_flash')(token=${vc('TOKEN')}, folder_id=${vc('FOLDER_ID')}, context=${vc('CONTEXT')}, question=${vc('QUESTION')})

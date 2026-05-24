@@ -1,0 +1,16 @@
+{
+  "type": "YandexFlashBlock",
+  "message0": "Спросить Yandex Flash %1 Токен %2 Каталог %3 Контекст (результат OCR) %4 Вопрос %5",
+  "args0": [
+    { "type": "input_dummy" },
+    { "type": "input_value", "name": "TOKEN", "check": "String" },
+    { "type": "input_value", "name": "FOLDER_ID", "check": "String" },
+    { "type": "input_value", "name": "CONTEXT" },
+    { "type": "input_value", "name": "QUESTION", "check": "String" }
+  ],
+  "inputsInline": false,
+  "output": null,
+  "colour": "#4CAF50",
+  "tooltip": "Задаёт вопрос нейросети Yandex Flash на основе переданного контекста (текста или словаря от OCR)",
+  "helpUrl": ""
+}
